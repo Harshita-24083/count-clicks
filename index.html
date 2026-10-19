@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cont {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            gap: 20px;
+        }
+
+        #green {
+            background-color: rgb(77, 249, 77);
+            height: 70px;
+            width: 70px;
+            border-radius: 4px;
+
+            font-size: larger;
+        }
+
+        #red {
+            background-color: rgb(245, 65, 65);
+            height: 70px;
+            width: 70px;
+            border-radius: 4px;
+
+            font-size: larger;
+        }
+
+        #grey {
+            background-color: rgb(194, 191, 191);
+            height: 70px;
+            width: 70px;
+            border-radius: 4px;
+
+            font-size: larger;
+        }
+
+        .button {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        h1 {
+            height: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cont">
+
+        <h1 id="count"></h1>
+        <div class="button">
+            <button id="green">+</button>
+            <button id="red">-</button>
+            <button id="grey">Reset</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
